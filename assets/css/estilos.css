@@ -1,0 +1,35 @@
+html, body {
+    height: 100% ;
+    width: 100% ;
+}
+body{ 
+    background-image: url(https://www.redes-sociales.com/wp-content/uploads/2023/02/fondo-pantalla-wallpaper-san-valentin-corazon-6.jpg);
+    padding: 50px;
+    margin: 40px;
+    -webkit-box-shadow: 1px 5px 6px 0px black;
+    box-shadow: 1px 5px 6px 0px black;
+}
+button{ 
+    background-color: red;
+}
+button:hover {
+    background-color: rgb(58, 51, 153);
+}
+h2{
+    color: blanchedalmond;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Spectral', serif;
+}
+label {
+    padding-bottom: 5px;
+    font-size: 13px;
+}
+input{
+    background-color: rgb(139, 206, 184);
+    margin-top: 3px;
+    padding: 15px;
+    font-size: 16px;
+    width: 20%;
+    border-radius: 3px;
+    border: 1px solid #dcdcdc;
+}

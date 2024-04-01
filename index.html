@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El codigo del amor</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Spectral:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <label><h2>Mensaje</h2></label>
+    <input id="msg" type="text">
+    <br>
+    <br>
+    <label><h2>Password</h2></label>
+    <input  id="pass" type="password">
+    <br>
+    <br>
+    <button onclick="encriptar()">Encriptar</button>
+    <br>
+    <br>
+    <label><h2>Mensaje Encriptado</h2></label>
+    <span id="demo1"></span>
+    <br>
+    <br>
+    <label ><h2>Mensaje Codigo</h2></label>
+    <input id="msgcodigo" type="text">
+    <br>
+    <br>
+    <button onclick="desencriptar()">Desencriptar</button>
+    <br> 
+    <br>
+    <strong><label >Mensaje real</label></strong>
+    <span id="demo2"></span>
+    <br>
+    <br>
+    <span id="error"></span>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
